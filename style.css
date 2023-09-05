@@ -1,1 +1,303 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Poppins;
 
+}
+button{
+    width: 180px;
+    height: 55px;
+    background-color: #6CB840;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: .2s;
+}
+::placeholder{
+    color: #162938;
+    font-size: 1.4em;
+}
+.eclipse{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    background: rgba(134, 187, 103, 0.8);
+    clip-path: circle(1300px at right -650px);
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+} 
+.content {
+    background-color: #e6e1e9;
+height: 90%;
+width: 90%;
+margin-top: .5%;
+margin-left: .5%;
+}
+.section{
+    color: #162938;
+    font-
+    position: relat
+    width: 400px;
+    margin-left: 20%;
+    
+}
+.first>ul>li {
+    display: inline-block;
+    font-size: 200%;
+    font-weight: 500;
+    margin: 10px;
+    padding-top: 10%;
+}
+.third>ul>li {
+    display: inline-block;
+    font-size: 200%;
+    font-weight: 500;
+    margin: 10px;
+    padding-top: 10%;
+}
+
+.first>ul>li>a {
+    padding: 18px;
+    margin-right: 0;
+    text-decoration: none;
+    display: block;
+    color: black;
+    }
+.third>ul>li>a {
+        padding: 18px;
+        margin-right: 0;
+        text-decoration: none;
+        display: block;
+        color: black;
+    }
+
+.second {
+    display: block;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 200%;
+    font-weight: 900;
+}
+.menu {
+    background-color: #d0b8da;
+    width: 80%;
+    margin-left: 10%;
+    height: 80%;
+}
+.menu-1 {
+    background: white;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin: auto ;
+    border-radius: 0px 0px 40px 0px;
+    padding-bottom: 15%;
+    justify-content: left;
+    text-align: center;
+   height: 50px;
+    width: 100px;
+    margin: 1.5%;
+    
+} 
+.menu-1 .img{
+    height: 90px;
+    width: 90px;
+    right: -10px;
+} 
+ h4{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    font-weight: 800;
+    font-size: 25px;
+    font-weight: 900;
+}
+.content-3 {
+    background-color: #C9ECB5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+    padding-bottom: 1%;
+}
+.hot .r {
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    padding-top: 40%;
+    margin-left: 10%;
+}
+.deals .i {
+    width: 600px;
+    height: 750px;
+    padding-top: -50px;
+}
+h1{
+    font-weight: 900;
+    margin-left: -20%;
+}
+.d{
+    color: #6CB840;
+}
+.combo h2{
+    font-size: 300%;
+    color: #6CB840;
+    font-weight: 100;
+    margin-top: 30%;
+    margin-left: -40%;
+    margin-bottom: 0%;
+}
+h3{
+    font-size: 300%;
+    margin-left: -20%;
+    font-weight: 100;
+    padding-top: -100%;
+    
+}
+p{
+    font-size: 200%;
+    margin-left: -20%;
+}
+.content-4 {
+    text-align: center; 
+    background-color:  #FFD77C;
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: -1.8%;
+}
+.Contact h3{ 
+    padding-top: 3%;
+    text-align: center;
+    margin-left: -5%;
+    
+}
+.Contact .u{
+    color: #6CB840;
+}
+.Contact p{
+    margin-left: -5%;
+}
+.contactUs .button-2 {
+    background: #6CB840;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    padding: 15px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 24px 22px;
+}
+input{
+    width: 700px; 
+    height: 50px; 
+    border-radius: 30px; 
+    padding: 10px;
+    border: none;
+    outline: none
+}
+.footer {
+    background-color: #C9ECB5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.footer-1 .q{
+    font-size: ;
+    margin-top: 50%;
+    padding-left: 30%;
+    font-size: 25px;
+    padding-right: 50px;
+}
+.footer-1 .w{
+    margin-top: 20%;
+    padding-left: 30%;
+    font-size: 25px;
+}
+.footer-2{
+    font-size: 70%;
+    margin-top: 90px;
+    font-family: 'poppins';
+}
+.footer-3{
+    font-size: 80%;
+    margin-top: 90px;
+    padding-left: 10%;
+}
+
+.menu-1 {
+  
+    width: 25%;
+    float: left;
+    text-align: center;
+  
+    width: 29.3333%;
+    
+}
+
+.menu-1 h4{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 0px
+}
+.menu-1 p {
+    color: black;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: poppins;
+    border: 2px;
+    position: relative;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.hot {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+section.p{
+    color: #162938;
+    font-size: 1.2em;
+    position: relative;
+    box-sizing: border-box;
+    width: 400px;
+}
+
+.column{
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+} 
+.eat h1{
+    color: orange; 
+    font-family: poppins;
+
+}
